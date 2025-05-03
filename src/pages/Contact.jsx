@@ -14,7 +14,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { MainLayout } from "../layouts/MainLayout";
 
 export const Contact = () => {
-	const [submit, handleSubmit] = useForm("xayanlpy");
+	const [submit, handleSubmit] = useForm("xldbjpyq");
 
 	if (submit.succeeded) {
 		return <Redirect to="/success" />;
@@ -53,7 +53,6 @@ export const Contact = () => {
 									name="name"
 									aria-required="true"
 									required
-									color="rgba(255, 255, 255, 0.4"
 									border="1px solid rgba(255, 255, 255, 0.4)"
 									borderRadius="4px"
 									borderColor="1px solid rgba(255, 255, 255, 0.4)"
@@ -61,7 +60,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(255 66 66)",
+										borderColor: "rgb(30,144,255)",
 										boxShadow: "none",
 									}}
 								/>
@@ -87,7 +86,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(255 66 66)",
+										borderColor: "rgb(30,144,255)",
 										boxShadow: "none",
 									}}
 								/>
@@ -113,7 +112,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(255 66 66)",
+										borderColor: "rgb(30,144,255)",
 										boxShadow: "none",
 									}}
 								/>
@@ -141,14 +140,14 @@ export const Contact = () => {
 									fontSize="1rem"
 									padding="0 2rem"
 									_active={{
-										backgroundColor: "rgb(255 66 66)",
+										backgroundColor: "rgb(30,144,255)",
 									}}
 									_focus={{
 										boxShadow: "none",
 									}}
 									_hover={{
-										borderColor: "rgb(255 66 66)",
-										backgroundColor: "rgb(255 66 66)",
+										borderColor: "rgb(30,144,255)",
+										backgroundColor: "rgb(30,144,255)",
 										boxShadow: "none",
 										color: "#fff",
 									}}

@@ -11,7 +11,8 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter as FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export const Main = () => {
@@ -35,9 +36,9 @@ export const Main = () => {
 						fontSize={["2rem", "2rem", "1.7rem", "2rem"]}
 						fontWeight="700"
 					>
-						<span style={{ color: "red" }}>Hello,</span> I’m
+						<span style={{ color: "rgb(30,144,255)" }}>Hello,</span> I’m
 						<br />
-						Goodness Sewo.
+						Favour Adeshina.
 					</Text>
 
 					<Text
@@ -50,21 +51,22 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I'm currently a Frontend Engineer  at{" "}
+						I'm currently a Mobile and Web Software Engineer at{" "}
 						<CLink
-							href="https://atrace.co"
+							href="https://www.totalscope.agency/"
 							style={{
 								boxShadow: "none",
-								color: "rgb(255 66 66)",
+								color: "rgb(30,144,255)",
+								fontWeight: "700",
 							}}
 							isExternal
 						>
 							{" "}
-							aTrace
+							TotalScope Agency
 						</CLink>
-						, where I focus on improving the quality of frontend code by paying
-						close attention to details with the help of grade A softwares and
-						developer tools/processes.
+						, where I build cutting-edge Web3 solutions for startups,
+						enterprises, and individual innovators—delivering seamless mobile
+						and web experiences powered by decentralized technologies.
 					</Text>
 				</Box>
 
@@ -74,16 +76,16 @@ export const Main = () => {
 							textDecoration="uppercase"
 							variant="outline"
 							border="3px solid"
-							borderColor="rgb(255 66 66)"
+							borderColor="rgb(30,144,255)"
 							boxShadow="none"
-							color="rgb(255 66 66)"
+							color="rgb(30,144,255)"
 							fontFamily="Space Grotesk"
 							fontSize={["1rem", "1rem", "1rem", "1.2rem"]}
 							padding="0 2rem"
-							_active={{ backgroundColor: "rgb(255 66 66)" }}
+							_active={{ backgroundColor: "rgb(30,144,255)" }}
 							_focus={{ boxShadow: "none" }}
 							_hover={{
-								backgroundColor: "rgb(255 66 66)",
+								backgroundColor: "rgb(30,144,255)",
 								color: "rgba(255, 255, 255, 0.8)",
 							}}
 						>
@@ -104,8 +106,8 @@ export const Main = () => {
 									>
 										<WrapItem>
 											<Avatar
-												name="Goodness Sewo"
-												src="https://res.cloudinary.com/dhlhdrh3i/image/upload/v1744335685/goodness1_bky6uw.jpg"
+												name="Favour Adeshina"
+												src="https://res.cloudinary.com/dsohqp4d9/image/upload/v1744669481/1709208865564_1_bqwwq8.jpg"
 											/>
 										</WrapItem>
 									</Wrap>
@@ -113,7 +115,7 @@ export const Main = () => {
 
 								<Box style={{ marginRight: "1rem" }}>
 									<a
-										href="https://github.com/Goodness815"
+										href="https://github.com/Favour-dgreat"
 										target="_blank"
 										rel="noreferrer"
 										style={{
@@ -139,7 +141,7 @@ export const Main = () => {
 
 								<Box style={{ marginRight: "1rem" }}>
 									<a
-										href="https://x.com/sewogoodness"
+										href="https://x.com/AdinoDev"
 										target="_blank"
 										rel="noreferrer"
 										style={{
@@ -147,7 +149,7 @@ export const Main = () => {
 										}}
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
-											<FaTwitter
+											<FaSquareXTwitter
 												style={{
 													color: "rgba(255, 255, 255, 0.72)",
 													marginRight: ".3rem",
@@ -157,7 +159,7 @@ export const Main = () => {
 												fontFamily="Space Grotesk"
 												fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
 											>
-												Twitter
+												Twitter (X)
 											</Text>
 										</Flex>
 									</a>
@@ -165,7 +167,7 @@ export const Main = () => {
 
 								<Box>
 									<a
-										href="https://www.linkedin.com/in/sewo-goodness-8080401bb"
+										href="https://www.linkedin.com/in/favour-adeshina/"
 										target="_blank"
 										rel="noreferrer"
 										style={{

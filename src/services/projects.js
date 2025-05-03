@@ -1,67 +1,59 @@
 export const projects = [
 	{
-		title: "Checkedgar",
-		tools: "Next.js + TypeScript + Chakra-UI + Zustand",
+		title: "ChowChow",
+		tools: "Next.js + TypeScript",
 		description:
-			"Afrilearn is an educational platform that provides world-class education for Africans, anywhere.",
-		live_link: "https://checkedgar.com/",
+			"Chow chow is a charity-focused memecoin that channels the power of community to support animal welfare and rescue organizations.",
+		live_link: "https://chowchow.meme/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
-		title: "Sabi Consulting",
+		title: "GalaxyJoe",
 		tools:
-			"Next.js + TypeScript + Chakra-UI + GSAP + NodeJS + ExpressJS + MongoDB",
+			"Next.js + TypeScript",
 		description:
 			"Lucid Games is a versatile collection of card games played by various groups and categories of individuals.",
-		live_link: "https://www.sabiconsulting.org/",
+		live_link: "https://galaxyjoe.xyz/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
-		title: "The Eniivy Brand",
-		tools: "Next.js + TypeScript + TailwindCSS + Zustand",
+		title: "Kaspa",
+		tools: "Next.js + TypeScript + TailwindCSS + Zustand + Solidity",
 		description:
-			"Stickerkeen help companies source, create, store and send sticky promotional merchandise to anyone, anywhere in Africa.",
-		live_link: "https://eniivy.com/",
+			"Kaspa is the fastest, open-source, decentralized & fully scalable Layer-1 in the world.",
+		live_link: "https://kaspa.org/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
-		title: "Emniks Engineering",
-		tools: "Next.js + TypeScript + Chakra-UI + NodeJS + ExpressJS + MongoDB",
+		title: "CEFMORSI",
+		tools: "Flutter (Dart) + Firebase + NodeJS + ExpressJS",
 		description:
-			"The OTPD is a bioinformatics platform with comprehensive data on Amyotrophic Lateral Sclerosis (ALS).",
-		live_link: "https://emniksengineering.com/",
+			"A Mobile application which allows user to access free Christian contents ranging from vidoes, books, events, magazines, etc.",
+		live_link: "https://cefmorsi-gicc8p.flutterflow.app/",
 		github_link:
-			"https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
-		isDisabled: false,
+			"",
+		isDisabled: true,
 	},
 	{
-		title: "BugBook Socials",
-		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
+		title: "GTASNFT-Minter",
+		tools: "React.js + Hardhat + Solidity + OpenZeppelin  + Celo tools",
 		description:
-			"A Christian community that empowers and equips young people to live purposeful lives.",
+			"GTAS NFT Marketplace is a decentralized application that provides donation to indigent children as you buy their images as NFTs.",
 		live_link: "https://nextjs-15-social-media-app.vercel.app/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
-		title: "Ophir",
+		title: "Sell-My-Stuff",
 		tools:
-			"Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
-		description: "Clothing e-commerce web app.",
-		live_link: "https://bimals-closet.vercel.app",
-		github_link: "https://ophir.netlify.app/",
-		isDisabled: false,
+			"TypeScript + Rust + React.js + NEAR Protocol + Chakra-UI + Zustand",
+		description: "Sell My Stuff is a decentralized platform for selling digital/tech items on the NEAR blockchain",
+		live_link: "https://favour-dgreat.github.io/Sell-My-Stuff/",
+		github_link: "",
+		isDisabled: true,
 	},
-	{
-		title: "YC Directory",
-		tools:
-			"Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
-		description: "Clothing e-commerce web app.",
-		live_link: "https://yc-directory-sand-two.vercel.app/",
-		github_link: "https://ophir.netlify.app/",
-		isDisabled: false,
-	},
+	
 ];

@@ -126,11 +126,11 @@ path:nth-child(8) {
 }
 
 .selected {
-	color: rgb(255 66 66);
+	color: rgb(30,144,255);
 }
 
 .selected .active_border {
-	border: 3px solid rgb(255 66 66);
+	border: 3px solid rgb(30,144,255);
 }
 
 .selected .active_mobile_border {
@@ -138,7 +138,7 @@ path:nth-child(8) {
 }
 
 .selected .vertical_line {
-	background-color: rgb(255 66 66);
+	background-color: rgb(30,144,255);
 }
 
 input:-webkit-autofill,

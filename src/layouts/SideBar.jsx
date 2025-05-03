@@ -63,7 +63,7 @@ export const SideBar = () => {
 									/>
 									<Box
 										className="active_border"
-										border="3px solid rgba(255, 255, 255, 0.3)"
+										border="3px solid rgba(30,144,255, 0.3)"
 										borderRadius="8px"
 										p=".4rem"
 									>

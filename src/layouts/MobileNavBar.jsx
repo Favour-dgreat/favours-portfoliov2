@@ -53,7 +53,7 @@ export const MobileNavBar = () => {
 				bgColor="#1a1919"
 				zIndex="999"
 				padding="1.5rem 0"
-				borderTop="1px solid rgba(255, 255, 255, 0.3)"
+				borderTop="1px solid rgba(30,144,255, 0.3)"
 			>
 				{navLinks.map((item) => {
 					return (

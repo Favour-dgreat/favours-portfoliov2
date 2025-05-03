@@ -9,11 +9,10 @@ export const Resume = () => {
 		"Next JS",
 		"TypeScript",
 		"JavaScript",
-		"Zustand",
+		"Flutter",
 		"Redux",
 		"GraphQL",
-		"Apollo Client",
-		"HTML5",
+		"Solidity",
 		"CSS3",
 		"Git",
 		"Responsive Design",
@@ -23,7 +22,7 @@ export const Resume = () => {
 	];
 
 	const resumeLink =
-		"https://drive.google.com/file/d/14j3NfFnZW2kvosSPpWi8tc1RFko5wiP0/view?usp=sharing";
+		"https://docs.google.com/document/d/17-uuxZ-E2PE8NkDlTJzxyHCze2IHtAmD/edit?usp=sharing&ouid=113270889609624745401&rtpof=true&sd=true";
 
 	return (
 		<Box w="100%">
@@ -51,7 +50,7 @@ export const Resume = () => {
 										fontWeight="900"
 										fontSize="2rem"
 									>
-										Goodness Sewo
+										Favour Adeshina
 									</Text>
 									<Text
 										fontSize="1rem"
@@ -59,13 +58,13 @@ export const Resume = () => {
 										color="gba(255, 255, 255, 0.8)"
 										fontWeight="700"
 									>
-										Frontend Engineer
+										Mobile & Web Engineer
 									</Text>
 								</Box>
 								<Box>
 									<Link
 										href={resumeLink}
-										download="SAMUEL_OGUNLEYE_CV"
+										download="Favour_Adeshina_Resume.pdf"
 										style={{
 											boxShadow: "none",
 										}}
@@ -96,11 +95,13 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.8)"
 								fontWeight="300"
 							>
-								Frontend Engineer, passionate and dedicated in bringing ideas
-								from pixels to live scalable products. I develop responsive
-								applications with user experience as top priority. I’m always
-								ready to adapt according to project specifications irrespective
-								of stack.
+								Web3 Mobile & Web Engineer, passionate about transforming ideas
+								into secure, scalable, and decentralized applications. I craft
+								responsive user interfaces with a strong focus on seamless user
+								experience across devices. Adaptable to any tech stack, I thrive
+								in fast-paced environments—building on-chain and off-chain
+								solutions that bridge design, functionality, and the future of
+								the web.
 							</Text>
 
 							<Text
@@ -110,19 +111,20 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.8)"
 								fontWeight="300"
 							>
-								As you'll see from my{" "}
+								As highlighted in my{" "}
 								<Link
 									href={resumeLink}
 									textDecoration="underline"
-									color="rgb(226, 101, 62)"
+									color="rgb(30,144,255)"
 									isExternal
 								>
 									resume
 								</Link>
-								, I've worked on a variety of projects, developing UI while
-								paying close attention to detail. I've also had the opportunity
-								to work with various frameworks such as React and Angular, while
-								constantly learning to improve my skillsets.
+								, I’ve contributed to a wide range of projects—developing
+								intuitive, detail-driven user interfaces. I’ve had the
+								opportunity to work with modern frameworks like Next.js, Flutter and
+								React, and I’m continuously expanding my skill set to stay
+								ahead in both Web2 and Web3 technologies.
 							</Text>
 						</Box>
 
@@ -138,7 +140,7 @@ export const Resume = () => {
 										<Box
 											bg="rgba(24, 22, 22, 0.5)"
 											borderLeft="3px solid"
-											borderColor="rgb(226, 101, 62)"
+											borderColor="rgb(30,144,255)"
 											p=".5rem"
 											textTransform="capitalize"
 											fontSize=".85rem"

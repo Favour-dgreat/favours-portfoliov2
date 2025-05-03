@@ -1,10 +1,15 @@
-import { Box, Flex, Link, SimpleGrid, Tag, Text } from "@chakra-ui/react";
+import { Box, Flex, SimpleGrid, Text, keyframes } from "@chakra-ui/react";
 import React from "react";
-import { AiOutlineClockCircle } from "react-icons/ai";
 import { MainLayout } from "../layouts/MainLayout";
-import { blogData } from "../services/blog";
 
 const Blog = () => {
+	// Animation for the Loading text
+	const loadingAnimation = keyframes`
+		0% { opacity: 0.2; }
+		50% { opacity: 1; }
+		100% { opacity: 0.2; }
+	`;
+
 	return (
 		<Box w="100%">
 			<MainLayout isMobile={true}>
@@ -16,84 +21,18 @@ const Blog = () => {
 					mt={["3rem", "3rem", "3rem", "1rem"]}
 				>
 					<Box padding={["0", "0", "0", "3rem"]}>
-						<SimpleGrid
-							columns={["1", "1", "2", "1", "2"]}
-							spacing={4}
-							mt="1rem"
-							mb="1rem"
-							zIndex="99"
-						>
-							{blogData.map((article) => {
-								return (
-									<Link
-										href={article.link}
-										isExternal
-										_hover={{ textDecoration: " none" }}
-										_focus={{ outline: "none" }}
-									>
-										<Box
-											key={article.id}
-											bgColor="rgba(24, 22, 22, 0.5)"
-											color="rgba(255, 255, 255, 0.8)"
-											fontFamily="Space Grotesk"
-											borderRadius="4px"
-											height="264px"
-											width="100%"
-											padding="1.5rem"
-											display="flex"
-											flexDirection="column"
-											justifyContent="space-between"
-											zIndex="2"
-											_hover={{
-												transform: "scale(1.05)",
-												transition: "all .5s",
-											}}
-										>
-											<Box>
-												<Text
-													fontSize=".75rem"
-													lineHeight="2"
-													color="rgba(255, 255, 255, 0.8)"
-													fontWeight="700"
-													textTransform="uppercase"
-												>
-													{article.tags}
-												</Text>
-												<Text
-													fontSize=".75rem"
-													color="rgba(255, 255, 255, 0.5)"
-													fontWeight="300"
-												>
-													{article.date}
-												</Text>
-											</Box>
-											<Box>
-												<Tag
-													size="sm"
-													bgColor="rgba(255, 255, 255, 0.1)"
-													color="rgba(255, 255, 255, 1)"
-												>
-													{article.platform}:
-												</Tag>
-												<Text
-													color="rgba(255, 255, 255, 0.8)"
-													fontWeight="500"
-													fontSize="1.1rem"
-												>
-													{article.title}
-												</Text>
-											</Box>
-											<Flex fontSize=".85rem" align="center" opacity="0.5">
-												<Box mr=".3rem">
-													<AiOutlineClockCircle />
-												</Box>
-												<Text>{article.time}</Text>
-											</Flex>
-										</Box>
-									</Link>
-								);
-							})}
-						</SimpleGrid>
+						{/* Centered Loading Text */}
+						<Flex justify="center" align="center" height="50vh">
+							<Text
+								fontSize="2xl"
+								fontWeight="bold"
+								color="rgba(255, 255, 255, 0.8)"
+								animation={`${loadingAnimation} 1.5s infinite`}
+								fontFamily="Space Grotesk"
+							>
+								Loading...
+							</Text>
+						</Flex>
 					</Box>
 				</SimpleGrid>
 			</MainLayout>
